@@ -4,7 +4,7 @@ In the case that if the alert is present at checkout, it was resolved in the cas
 ## How To Run It
 Execute that maven command:
 ```
-mvn clean test -DforkCount=0 -Dlogin.user=johndoe19 -Dlogin.password=supersecret
+clean test -DforkCount=0 -Dlogin.user=johndoe19 -Dlogin.password=supersecret
 ```
 And the Profiles
 
