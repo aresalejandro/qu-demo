@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="BDD Test Suite" verbose="1">
+
+    <listeners>
+        <listener class-name="qu.core.TestListener"/>
+    </listeners>
+
+    <test name="Automation Tests" group-by-instances="true">
+        <classes>
+            <class name="qu.core.TestFactory" />
+        </classes>
+    </test>
+
+</suite>

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="9" passed="9" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-04-27T16:57:05 ART" name="BDD Test Suite" finished-at="2023-04-27T16:57:47 ART" duration-ms="41842">
+    <groups>
+    </groups>
+    <test started-at="2023-04-27T16:57:05 ART" name="Automation Tests" finished-at="2023-04-27T16:57:47 ART" duration-ms="41842">
+      <class name="qu.scenarios.InvalidLoginScenario">
+        <test-method signature="invalidCredentialValidations()[pri:0, instance:qu.scenarios.InvalidLoginScenario@4ffa078d, instance params:[]]" started-at="2023-04-27T16:57:28 ART" name="invalidCredentialValidations" finished-at="2023-04-27T16:57:31 ART" duration-ms="2941" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidCredentialValidations -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:qu.scenarios.InvalidLoginScenario@4ffa078d]" started-at="2023-04-27T16:57:31 ART" name="afterClass" finished-at="2023-04-27T16:57:31 ART" duration-ms="195" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- qu.scenarios.InvalidLoginScenario -->
+      <class name="qu.scenarios.SearchScenario">
+        <test-method signature="searchValueValidations()[pri:0, instance:qu.scenarios.SearchScenario@6be8ce1b, instance params:[]]" started-at="2023-04-27T16:57:41 ART" name="searchValueValidations" finished-at="2023-04-27T16:57:47 ART" duration-ms="5683" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchValueValidations -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:qu.scenarios.SearchScenario@6be8ce1b]" started-at="2023-04-27T16:57:47 ART" name="afterClass" finished-at="2023-04-27T16:57:47 ART" duration-ms="222" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- qu.scenarios.SearchScenario -->
+      <class name="qu.scenarios.GridAllItemScenario">
+        <test-method signature="gridAllItemValidations()[pri:0, instance:qu.scenarios.GridAllItemScenario@3516b881, instance params:[]]" started-at="2023-04-27T16:57:20 ART" name="gridAllItemValidations" finished-at="2023-04-27T16:57:24 ART" duration-ms="4144" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- gridAllItemValidations -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:qu.scenarios.GridAllItemScenario@3516b881]" started-at="2023-04-27T16:57:24 ART" name="afterClass" finished-at="2023-04-27T16:57:24 ART" duration-ms="201" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- qu.scenarios.GridAllItemScenario -->
+      <class name="qu.scenarios.CheckoutFormScenario">
+        <test-method signature="checkoutFormValidations()[pri:0, instance:qu.scenarios.CheckoutFormScenario@42238078, instance params:[]]" started-at="2023-04-27T16:57:10 ART" name="checkoutFormValidations" finished-at="2023-04-27T16:57:17 ART" duration-ms="6828" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkoutFormValidations -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:qu.scenarios.CheckoutFormScenario@42238078]" started-at="2023-04-27T16:57:17 ART" name="afterClass" finished-at="2023-04-27T16:57:17 ART" duration-ms="205" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- qu.scenarios.CheckoutFormScenario -->
+      <class name="qu.scenarios.LoginScenario">
+        <test-method signature="loginValidations()[pri:0, instance:qu.scenarios.LoginScenario@2adc1e84, instance params:[]]" started-at="2023-04-27T16:57:31 ART" name="loginValidations" finished-at="2023-04-27T16:57:34 ART" duration-ms="2986" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginValidations -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:qu.scenarios.LoginScenario@2adc1e84]" started-at="2023-04-27T16:57:34 ART" name="afterClass" finished-at="2023-04-27T16:57:34 ART" duration-ms="190" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- qu.scenarios.LoginScenario -->
+      <class name="qu.scenarios.CheckoutCartScenario">
+        <test-method signature="checkoutCartValidations()[pri:0, instance:qu.scenarios.CheckoutCartScenario@5627b8eb, instance params:[]]" started-at="2023-04-27T16:57:05 ART" name="checkoutCartValidations" finished-at="2023-04-27T16:57:09 ART" duration-ms="4249" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkoutCartValidations -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:qu.scenarios.CheckoutCartScenario@5627b8eb]" started-at="2023-04-27T16:57:09 ART" name="afterClass" finished-at="2023-04-27T16:57:10 ART" duration-ms="385" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- qu.scenarios.CheckoutCartScenario -->
+      <class name="qu.scenarios.GridItemScenario">
+        <test-method signature="gridItemValidations()[pri:0, instance:qu.scenarios.GridItemScenario@49fe0bcd, instance params:[]]" started-at="2023-04-27T16:57:24 ART" name="gridItemValidations" finished-at="2023-04-27T16:57:28 ART" duration-ms="3417" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- gridItemValidations -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:qu.scenarios.GridItemScenario@49fe0bcd]" started-at="2023-04-27T16:57:28 ART" name="afterClass" finished-at="2023-04-27T16:57:28 ART" duration-ms="194" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- qu.scenarios.GridItemScenario -->
+      <class name="qu.scenarios.EmptyLoginScenario">
+        <test-method signature="emptyCredentialValidations()[pri:0, instance:qu.scenarios.EmptyLoginScenario@4e26564d, instance params:[]]" started-at="2023-04-27T16:57:17 ART" name="emptyCredentialValidations" finished-at="2023-04-27T16:57:20 ART" duration-ms="2876" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- emptyCredentialValidations -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:qu.scenarios.EmptyLoginScenario@4e26564d]" started-at="2023-04-27T16:57:20 ART" name="afterClass" finished-at="2023-04-27T16:57:20 ART" duration-ms="198" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- qu.scenarios.EmptyLoginScenario -->
+      <class name="qu.scenarios.SearchEmptyScenario">
+        <test-method signature="searchValueValidations()[pri:0, instance:qu.scenarios.SearchEmptyScenario@39a865c1, instance params:[]]" started-at="2023-04-27T16:57:34 ART" name="searchValueValidations" finished-at="2023-04-27T16:57:41 ART" duration-ms="6649" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchValueValidations -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:qu.scenarios.SearchEmptyScenario@39a865c1]" started-at="2023-04-27T16:57:41 ART" name="afterClass" finished-at="2023-04-27T16:57:41 ART" duration-ms="217" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- qu.scenarios.SearchEmptyScenario -->
+    </test> <!-- Automation Tests -->
+  </suite> <!-- BDD Test Suite -->
+</testng-results>
